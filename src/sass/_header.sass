@@ -54,23 +54,26 @@
 		position: absolute
 		content: ''
 		width: 100%
-		bottom: -60px
-		left: 0			
+		top: 0
+		left: 0
+		transform: translateY(70px)		
 		padding-left: 20px
 		padding-right: 20px
 		height: 60px
 		background-color: #ffcc00
-		&-list
-			display: flex
-			justify-content: space-between
-			align-items: center			
+		&-list				
 			height: 100%	
 			margin: 0		
 			padding: 0
 			list-style-type: none
-			&__item										
+			&__item	
+				display: inline-block
+				text-align: center
+				vertical-align: middle									
 			&__link
-				display: block															
+				display: block
+				width: 150px
+				height: 60px														
 				text-decoration: none
 				font-size: 14px
 				font-weight: 500
