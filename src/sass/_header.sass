@@ -60,23 +60,27 @@
 		padding-left: 20px
 		padding-right: 20px
 		height: 60px
-		background-color: #ffcc00
-		&-list				
+		background-color: #ffcc00		
+		&-list		
+			display: flex
+			justify-content: space-between
+			flex-wrap: nowrap		
 			height: 100%	
 			margin: 0		
 			padding: 0
 			list-style-type: none
 			&__item	
-				display: inline-block
-				text-align: center
-				vertical-align: middle									
+				display: flex													
 			&__link
-				display: block
-				width: 150px
-				height: 60px														
+				display: flex
+				align-items: center
+				justify-content: center
+				width: 150px														
 				text-decoration: none
 				font-size: 14px
 				font-weight: 500
-				color: #000	
+				color: #000
+				&:hover
+					background-color: #c5a421	
 
 						
