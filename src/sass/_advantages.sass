@@ -2,3 +2,57 @@
 	background-color: #f4f4f4
 	padding-top: 80px
 	padding-bottom: 80px
+	&__title
+		margin-bottom: 60px
+		font-size: 20px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+	&-list
+		display: flex
+		justify-content: space-between
+	&-item
+		position: relative
+		max-width: 300px
+		padding-top: 130px
+		padding-bottom: 43px
+		padding-left: 25px
+		padding-right: 25px
+		border: 2px solid #ffffff
+		color: #292929
+		text-align: center
+		&:hover
+			background-color: #fff
+		&__title
+			font-size: 15px
+			font-weight: 500			
+		&__descr
+			font-size: 12px
+			font-weight: 300
+	.pig-icon
+		&::before
+			position: absolute
+			content: ''
+			width: 50px
+			height: 50px
+			top: 40px
+			left: 124px
+			background-image: url('../img/advantages/piggy-bank.png')
+	.van-icon
+		&::before
+			position: absolute
+			content: ''
+			width: 50px
+			height: 50px
+			top: 40px
+			left: 124px
+			background-image: url('../img/advantages/van.png')
+	.wheelbarrow-icon
+		&::before
+			position: absolute
+			content: ''
+			width: 50px
+			height: 50px
+			top: 40px
+			left: 124px
+			background-image: url('../img/advantages/wheelbarrow.png')												
