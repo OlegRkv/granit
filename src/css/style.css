@@ -352,4 +352,54 @@ body {
   left: 124px;
   background-image: url("../img/advantages/wheelbarrow.png");
 }
+
+.popular {
+  padding-top: 80px;
+  padding-bottom: 94px;
+}
+
+.popular__title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.popular-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.popular-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  max-width: 220px;
+  border: 2px solid #f6f6f6;
+  text-align: center;
+}
+
+.popular-item__img {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+.popular-item__title {
+  display: block;
+  margin-bottom: 24px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #292929;
+  text-decoration: underline;
+}
+
+.popular-item__btn {
+  display: block;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
