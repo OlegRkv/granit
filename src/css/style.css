@@ -31,6 +31,15 @@ body {
   cursor: pointer;
 }
 
+.title {
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #292929;
+}
+
 .header {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -215,15 +224,6 @@ body {
   padding-bottom: 80px;
 }
 
-.catalog__title {
-  margin-bottom: 60px;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  color: #292929;
-}
-
 .catalog-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,14 +278,6 @@ body {
   background-color: #f4f4f4;
   padding-top: 80px;
   padding-bottom: 80px;
-}
-
-.advantages__title {
-  margin-bottom: 60px;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .advantages-list {
@@ -358,13 +350,6 @@ body {
   padding-bottom: 94px;
 }
 
-.popular__title {
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .popular-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,6 +385,198 @@ body {
 
 .popular-item__btn {
   display: block;
-  margin: 0 auto;
+  width: 180px;
+}
+
+.popular-item__price {
+  display: inline-block;
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.popular-item__price-old {
+  margin-right: 14px;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #979797;
+}
+
+.popular-item__price-new {
+  color: #ff0000;
+}
+
+.services {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f4f4f4;
+}
+
+.services-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services-item {
+  max-width: 300px;
+  max-height: 255px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border: 2px solid #ffffff;
+  text-align: center;
+}
+
+.services-item:hover {
+  background-color: #ffffff;
+}
+
+.services-item .img-wrapper {
+  width: 250px;
+  height: 115px;
+  margin-bottom: 36px;
+}
+
+.services-item__img {
+  max-width: 100%;
+}
+
+.contacts {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: url("../img/contacts/map-bg.jpg") no-repeat;
+}
+
+.contacts__title {
+  margin-top: 0;
+  margin-bottom: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.contacts-wrapper {
+  width: 380px;
+  height: 360px;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 75px;
+  padding-bottom: 70px;
+  background-color: #fff;
+}
+
+.contacts-phone {
+  position: relative;
+  margin-bottom: 35px;
+  padding-left: 30px;
+}
+
+.contacts-phone::before {
+  position: absolute;
+  content: '';
+  background: url("../img/contacts/phone-ico.png") no-repeat;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.contacts__phone {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contacts-address {
+  position: relative;
+  margin-bottom: 35px;
+  padding-left: 30px;
+}
+
+.contacts-address::before {
+  position: absolute;
+  content: '';
+  background: url("../img/contacts/pin-ico.png") no-repeat;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.contacts__address {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contacts-mail {
+  position: relative;
+  padding-left: 30px;
+}
+
+.contacts-mail::before {
+  position: absolute;
+  content: '';
+  background: url("../img/contacts/mail-ico.png") no-repeat;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.footer {
+  padding-top: 55px;
+  padding-bottom: 45px;
+  background-color: #292929;
+  color: #ffffff;
+}
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo {
+  margin-bottom: 55px;
+}
+
+.footer__copyright {
+  display: block;
+}
+
+.footer-callback__phone {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-callback__descr {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.footer-callback__btn {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
